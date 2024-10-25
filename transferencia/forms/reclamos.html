@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Reclamaciones</title>
+    <link rel="stylesheet" href="estiloforms.css">
+</head>
+<body>
+    <form action="reclamos.html" method="post">
+    <header>QUEJAS  Y  RECLAMOS <br>
+        ________________________
+    </header>
+    <ul>
+        <caption>INGRESA TUS DATOS:
+            <br>
+            <br>
+        </caption>
+        <li>
+            <label for="name">Correo Electrónico:</label>
+            <input type="text" id="name" name="user_mail" />
+        </li>
+        <li>
+            <label for="name">Contraseña:</label>
+            <input type="password" id="name" name="user_key" />
+        </li>
+        
+        <li>
+            <label for="cat">Tu reclamo va dirigido al área de:</label>
+            <select name="cat" id="cat">
+            <option value="A">Atención al cliente</option>
+            <option value="B">Soporte técnico</option>
+            <option value="C">Calidad del servicio</option>
+            <option value="D">Otro</option>
+            </select>
+            <li>
+                <label for="msg">Bríndanos más detalles:</label>
+                <textarea id="mensaje" name="user_message"></textarea>
+            </li>
+        
+        
+    </ul><input id="send" type="submit" value="Envía tu reclamo"></form>
+</body>

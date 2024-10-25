@@ -1,0 +1,32 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+nav ul{
+    width: 100%;
+    margin: auto;
+    list-style-type: none;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    font-size: 100%;
+    padding: 1%;
+}
+nav li{
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-inline: 20px;
+    
+}
+#arm{
+    background-color: rgb(255, 47, 47);
+    padding: 10px;
+    color: aliceblue;
+}
+#free{
+    background-color: rgb(255, 100, 53);
+    padding: 10px;
+    color: aliceblue;
+}
+
+
